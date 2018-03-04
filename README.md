@@ -5,7 +5,7 @@
 Gloabl installation
 
 ```javascript
-(sudo) npm install -g typescript ts-node tslint nodemon
+(sudo) npm install -g typescript ts-node tslint nodemon mocha
 npm install
 ```
 
