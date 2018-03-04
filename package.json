@@ -8,6 +8,7 @@
     "build": "tsc -p tsconfig.json",
     "build:clean": "npm run clean && tsc -p tsconfig.json",
     "clean": "cd dist && rm -rf *",
+    "lint": "tslint -p tsconfig.json",
     "start": "node dist/index.js",
     "start:ts": "ts-node src/index.ts",
     "start:dev": "nodemon",

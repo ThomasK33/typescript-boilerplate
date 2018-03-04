@@ -5,7 +5,10 @@
 	],
 	"jsRules": {},
 	"rules": {
-		"indent": [true, "tabs"],
+		"indent": [
+			true,
+			"tabs"
+		],
 		"ordered-imports": false,
 		"object-literal-sort-keys": false
 	},
