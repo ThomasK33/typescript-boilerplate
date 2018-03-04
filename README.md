@@ -37,3 +37,14 @@ Start local live development server
 ```javascript
 nodemon
 ```
+
+---
+
+## Testing
+
+Run tests:
+
+```javascript
+npm run lint
+npm run test
+```
