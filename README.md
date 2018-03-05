@@ -26,10 +26,17 @@ Build & run the project:
 npm start
 ```
 
-Run locally
+Run without building
 
 ```javascript
-ts-node src/index.ts
+npm run start:ts
+```
+
+Run from already build source
+
+```javascript
+// assuming "npm run build" has already been run
+npm run start:local
 ```
 
 Start local live development server
