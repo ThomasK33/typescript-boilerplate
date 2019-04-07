@@ -2,18 +2,10 @@
 
 ## Requirements
 
-Gloabl installation
-
-```javascript
-(sudo) npm install -g typescript ts-node tslint nodemon mocha
-npm install
-```
-
-Local installation
+Installation
 
 ```javascript
 npm install
-npm install --only=dev
 ```
 
 ---
@@ -42,7 +34,7 @@ npm run start:local
 Start local live development server
 
 ```javascript
-nodemon
+npm run dev
 ```
 
 ---

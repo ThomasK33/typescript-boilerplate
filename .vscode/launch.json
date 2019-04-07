@@ -11,9 +11,9 @@
 			"args": [],
 			"cwd": "${workspaceRoot}",
 			"outFiles": [
-				"${workspaceRoot}/dist/*"
+				"${workspaceRoot}/dist/src/*"
 			],
-			"preLaunchTask": "compile",
+			"preLaunchTask": "build",
 			"program": "${workspaceRoot}/src/index.ts",
 			"runtimeArgs": [
 				"--nolazy"
@@ -32,9 +32,9 @@
 				"DEBUG": "*"
 			},
 			"outFiles": [
-				"${workspaceRoot}/dist/*"
+				"${workspaceRoot}/dist/src/*"
 			],
-			"preLaunchTask": "compile",
+			"preLaunchTask": "build",
 			"program": "${workspaceRoot}/src/index.ts",
 			"runtimeArgs": [
 				"--nolazy"
