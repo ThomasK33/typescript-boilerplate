@@ -1,5 +1,5 @@
 import * as debug from "debug";
 
-debug("index.ts")("working");
+debug("app::index")("debug message from index.ts");
 
 export default () => true;
